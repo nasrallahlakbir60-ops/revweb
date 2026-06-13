@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(26, 23, 23);
+    color:white;
+    padding: 10px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    height: 200px; 
+    margin-top: 50px;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size:55px;
+    font-family: 'Poppins', sans-serif;
+}
+.txt span{
+    background: linear-gradient(
+        90deg,
+        #7B61FF,
+        #A855F7,
+        #EC4899,
+        #60A5FA
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.txt1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.buttons{
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn1{
+    background-color: white;
+    padding:20px 40px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.btn2{
+    background-color:black;
+    padding:20px 40px;
+    border-color: white;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+.txt2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 10px;
+}
+.barphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 60px;
+}
+.barphoto img{
+    height: 42px;
+}
+.txt3{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.container1{
+    width: 390px;
+    background: #2b2b2b;
+    border-radius: 20px;
+   
+}
+.container2{
+    width: 390px;
+    background: #2b2b2b;
+    border-radius: 20px;
+    
+}
+
+.img11 img{
+    width: 100%;
+}
+
+.img22 img{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+}
+.info2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+}
+
+.txtinfo p{
+    color: #bdbdbd;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+}
+.txtinfo2 p{
+    color: #bdbdbd;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.txtinfo h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 4px;
+}
+.txtinfo2 h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 4px;
+}
+
+.view1 img{
+    width: 22px;
+    cursor: pointer;
+}
+.view2 img{
+    width: 22px;
+    cursor: pointer;
+}
+.txt4{
+    display: flex;
+    justify-content: center;
+    color: rgb(74, 74, 141);
+    margin-top: 60px;
+}
+.paragraphe1{
+    color: grey;
+    text-align: start;
+}
+
+.date1{
+    color: grey;
+}
+
+.bar1{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+.paragraphe2{
+    color: grey;
+    text-align: start;
+}
+
+.date2{
+    color: grey;
+}
+
+.bar2{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container6{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.container5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+.paragraphe3{
+    color: grey;
+    text-align: start;
+}
+
+.date3{
+    color: grey;
+}
+
+.bar3{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container8{
+    display: flex;
+    align-items: center;
+    gap: 270px;
+}
+
+.container7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .p{
+       display: flex;
+       flex-direction: column;
+    }
+    .menu {
+        
+        height: 10px;
+        gap: 5px;
+        
+    }
+}
