@@ -271,14 +271,43 @@ body{
 
 
 @media screen and (max-width: 600px) {
-    .p{
-       display: flex;
-       flex-direction: column;
+  .nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links{
+    gap: 50px;
+  }
+  .barphoto{
+    gap: 15px;
+  }
+  .bar1{
+    font-size: 5px;
+  }
+  .bar2{
+    font-size: 5px;
+  }
+  .bar3{
+    font-size: 5px;
+  }
+      .date1,
+    .date2,
+    .date3{
+        font-size: 12px;
+        white-space: nowrap;
     }
-    .menu {
-        
-        height: 10px;
-        gap: 5px;
-        
+
+    .paragraphe1,
+    .paragraphe2,
+    .paragraphe3{
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .paragraphe1 br,
+    .paragraphe2 br,
+    .paragraphe3 br{
+        display: none;
     }
 }
